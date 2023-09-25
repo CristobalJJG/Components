@@ -1,0 +1,25 @@
+$server-bg: #1f2025;
+$pages-bg: #2e2f34;
+$bg:#35383f;
+
+.flex{
+    display: flex;
+}
+
+header{
+    width:350px;
+    height: 100%;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    .server{
+        background-color: $server-bg;
+    }
+    .pages{
+        background-color: $pages-bg;
+    }
+}
+
+.bg{
+    background-color: $bg;
+    width: calc(100% - 250px)
+}
